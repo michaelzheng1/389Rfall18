@@ -1,18 +1,32 @@
 Writeup 9 - Crypto I
 =====
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION HERE*
+Name: Michael Zheng
+Section: 0101
 
 I pledge on my honor that I have not given or received anyunauthorized assistance on this assignment or examination.
 
-Digital acknowledgement of honor pledge: *PUT YOUR NAME HERE*
+Digital acknowledgement of honor pledge: Michael Zheng
 
 ## Assignment 9 Writeup
 
 ### Part 1 (60 Pts)
+Since I have the password list and the hashes, I can brute force the password 
+combinations. First, I iterated the hashes and then the wordlist. While iterating
+through the all the salt options, I appended the salt and the word from wordlist
+with hashlib.256() function. Then I check if the hashed output matches the hash
+value. Below is the output after running "python part1.py".
 
 
 ### Part 2 (40 Pts)
+First I added the IP and the port. The specification doesn't tell much what I
+should implement for part2.py so I decided to run the program to see the output.
 
+From the output, I have to find the hash by using the given word and crypto
+function. This was similar to the interactive shell where I have to parse the
+output. The word "the" is before the given crypto function and the word "of" is
+before the given word. I decided to use the index of the word "the" and "of",
+to store the word and crypto function. After modifying and running the code, the
+program ask me to find another hash. I placed my code inside a loop and modified
+along the way until I get the flag.
 
