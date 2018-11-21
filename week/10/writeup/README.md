@@ -30,3 +30,4 @@ I decided to create a checkpoint that would print out the message if it contains
 ![Alt text](https://github.com/michaelzheng1/389Rfall18/blob/master/week/10/writeup/Screen(4).png)
 
 3. Using the my name and the name "UMD Cybersecurity Club", I entered "gpg -e -u "Michael" -r "UMD Cybersecurity Club" message.private
+ 
