@@ -1,12 +1,12 @@
 Writeup 10 - Crypto II
 =====
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION HERE*
+Name: Michael Zheng
+Section: 0101
 
-I pledge on my honor that I have not given or received anyunauthorized assistance on this assignment or examination.
+I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examination.
 
-Digital acknowledgement of honor pledge: *PUT YOUR NAME HERE*
+Digital acknowledgement of honor pledge: Michael Zheng
 
 ## Assignment 10 Writeup
 
@@ -14,5 +14,3 @@ Digital acknowledgement of honor pledge: *PUT YOUR NAME HERE*
 
 
 ### Part 2 (30 Pts)
-
-
