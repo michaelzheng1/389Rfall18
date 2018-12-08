@@ -20,7 +20,7 @@ http://cornerstoneairlines.co:8080/item?id=1' or '1'='1
 1.    From the lecture notes, I reused <script>alert('this is Xss');</script> and it works.
 
 2.    First, I tried to use the same input from the first problem. However, this doesn't work. Then I realized the website might be using JavaScript, so I search online how to perform an XSS attack with JavaScript. I would have to use an img tag and oneerror attribute to perform the XSS attack. I enter in
-<img src='blank' onerror=alert(1) />
+"<img src='blank' onerror=alert(1) />"
 
 3.    This problem is almost the same as the previous one. Instead of injecting into a prompt, I have to inject the url.  I tried to enter the same injection, but it doesn't work. I noticed the frame number changes as I selected different images, so I decided to remove the first part of the injection leaving ='blank' onerror=alert(1) />
 The overall url is :
